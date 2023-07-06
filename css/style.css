@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links ul {
+    display: flex;
+}
+
+.container {
+    max-width: 1124px;
+    margin: auto;
+}
+
+.container nav ul {
+    list-style: none;
+}
+
+.support {
+    position: relative;
+}
+
+.support ul {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+nav.nav-open {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.nav-open .logo {
+    position: absolute;
+    top: 10%;
+    left: calc(50% - 55px);
+}
+
+.nav-open .nav-links.fade-in {
+    position: relative;
+    margin: 88px auto;
+}
+
+.nav-links.fade-in ul {
+    display: block;
+}
+
+.nav-links ul li {
+    margin-left: 28px;
+}
+
+.nav-links ul li:first-child {
+    margin-left: 14px;
+}
+
+.nav-links ul li:last-child {
+    margin-right: 14px;
+}
+
+nav .nav-links .link {
+    text-decoration: none;
+    color: #1C1B1B;
+    font: 16px/26px Roboto;
+    font-style: normal;
+    font-weight: 700;
+    transition: all 300ms cubic-bezier(.9, 0, .33, 1);
+}
+
+.logo {
+    position: absolute;
+    top: 16px;
+    left: calc(50% - 40px);
+}
+
+.support ul li:first-of-type {
+    margin-right: 15px;
+    padding-top: 18px;
+}
+
+.support ul li {
+    padding-top: 18px;
+}
+
+.support ul li:last-of-type {
+    margin-left: 7px;
+    padding-top: 14px;
+}
+
+.fall {
+    background: #F0EFEB;
+}
+
+.fall_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 60px 24px 164px;
+}
+
+.fall_text {
+    position: relative;
+    max-width: 544px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 90px;
+}
+
+.fall_text h1 {
+    color: #000;
+    font: 60px Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 4px;
+}
+
+.fall_text h2 {
+    color: #000;
+    font: 60px Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 42px;
+}
+
+.fall_text h3 {
+    color: #000;
+    font: 24px Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 33px;
+}
+
+
+
+
+
+
+
+
+
+
+.shop_now {
+    width: 129px;
+    font: 17px 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    padding: 7px 23px 9px 23px;
+    color: #FFF;
+    border-radius: 14px;
+    background: #000;
+    text-align: center;
+}
+
+
+
+
+

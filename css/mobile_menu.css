@@ -29,7 +29,7 @@ nav {
 nav.nav-open {
     transform: translateX(0px);
     border-radius: 0 0 0 0;
-    background: rgba(255, 255, 255, 0.6);
+    background: #F0EFEB;
 }
 
 .nav-open .menu-btn {
@@ -103,8 +103,7 @@ nav .nav-links {
 nav .nav-links.fade-in {
     opacity: 1;
     transform: translateX(0px);
-    background: #F0EFEB;
-    width: 768px;
+    max-width: 768px;
 }
 
 

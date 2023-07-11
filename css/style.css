@@ -74,6 +74,11 @@ nav .nav-links .link {
     left: calc(50% - 40px);
 }
 
+.logo img {
+    width: 80px;
+    height: 25px;
+}
+
 .support ul li:first-of-type {
     margin-right: 15px;
     padding-top: 18px;

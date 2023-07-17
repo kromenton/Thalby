@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=$main_font:wght@400;700&display=swap");
 * {
   padding: 0;
   margin: 0; }
@@ -15,12 +15,10 @@ header {
   display: flex; }
   .nav-links ul li {
     margin-left: 28px; }
-
-.nav-links ul li:first-child {
-  margin-left: 14px; }
-
-.nav-links ul li:last-child {
-  margin-right: 14px; }
+    .nav-links ul li:first-child {
+      margin-left: 14px; }
+    .nav-links ul li:last-child {
+      margin-right: 14px; }
 
 nav.nav-open {
   display: flex;
@@ -41,7 +39,7 @@ nav.nav-open {
 nav .nav-links .link {
   text-decoration: none;
   color: #1C1B1B;
-  font: 16px/26px Roboto;
+  font: 16px/26px 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   transition: all 300ms cubic-bezier(.9, 0, .33, 1); }
@@ -60,16 +58,14 @@ nav .nav-links .link {
     display: flex;
     position: relative;
     justify-content: center; }
-  .support li {
-    padding-top: 18px; }
-
-.support ul li:first-of-type {
-  margin-right: 15px;
-  padding-top: 18px; }
-
-.support ul li:last-of-type {
-  margin-left: 7px;
-  padding-top: 14px; }
+    .support ul li {
+      padding-top: 18px; }
+      .support ul li:first-of-type {
+        margin-right: 15px;
+        padding-top: 18px; }
+      .support ul li:last-of-type {
+        margin-left: 7px;
+        padding-top: 14px; }
 
 .fall {
   background: #F0EFEB;
@@ -87,7 +83,7 @@ nav .nav-links .link {
     .fall .fall_text h1 {
       max-width: 534px;
       color: #000;
-      font: 60px Roboto;
+      font: 60px 'Roboto', sans-serif;
       font-style: normal;
       font-weight: 700;
       line-height: normal;
@@ -95,14 +91,14 @@ nav .nav-links .link {
     .fall .fall_text h2 {
       max-width: 481px;
       color: #000;
-      font: 24px Roboto;
+      font: 24px 'Roboto', sans-serif;
       font-style: normal;
       font-weight: 400;
       line-height: normal;
       margin-bottom: 33px; }
     .fall .fall_text .shop_now {
       width: 129px;
-      font: 17px 'Roboto';
+      font: 17px '$main_font';
       font-style: normal;
       font-weight: 400;
       line-height: normal;
@@ -115,7 +111,7 @@ nav .nav-links .link {
       display: inline-block; }
 
 .guide_sell {
-  background: #FFFFFF;
+  background: #FFF;
   padding-top: 60px;
   padding-bottom: 99px; }
   .guide_sell .guide_container {
@@ -128,7 +124,7 @@ nav .nav-links .link {
       .guide_sell .guide_container .guides h2 {
         color: #000;
         text-align: center;
-        font: 36px Roboto;
+        font: 36px 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -137,7 +133,7 @@ nav .nav-links .link {
         max-width: 632px;
         color: #000;
         text-align: center;
-        font: 20px Roboto;
+        font: 20px 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -145,7 +141,7 @@ nav .nav-links .link {
       .guide_sell .guide_container .guides span {
         color: #000;
         text-align: center;
-        font: 20px Roboto;
+        font: 20px 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -154,7 +150,7 @@ nav .nav-links .link {
       text-align: center;
       margin-bottom: 52px;
       color: #000;
-      font: 36px Roboto;
+      font: 36px 'Roboto', sans-serif;
       font-style: normal;
       font-weight: 700;
       line-height: normal; }
@@ -169,7 +165,7 @@ nav .nav-links .link {
           max-width: 156px;
           color: #000;
           text-align: center;
-          font: 17px Roboto;
+          font: 17px 'Roboto', sans-serif;
           font-style: normal;
           font-weight: 700;
           line-height: normal; }
@@ -180,7 +176,7 @@ nav .nav-links .link {
         .guide_sell .guide_container .sellers .cards span {
           color: #000;
           text-align: center;
-          font: 17px Roboto;
+          font: 17px 'Roboto', sans-serif;
           font-style: normal;
           font-weight: 400;
           line-height: normal;
@@ -188,7 +184,7 @@ nav .nav-links .link {
         .guide_sell .guide_container .sellers .cards a {
           color: #000;
           text-align: center;
-          font: 17px Roboto;
+          font: 17px 'Roboto', sans-serif;
           font-style: normal;
           font-weight: 700;
           line-height: normal;
@@ -209,7 +205,7 @@ nav .nav-links .link {
     display: block; }
   .p_and_s h2 {
     color: #000;
-    font: 36px Roboto;
+    font: 36px 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -217,14 +213,14 @@ nav .nav-links .link {
   .p_and_s p {
     max-width: 498px;
     color: #000;
-    font: 36px Roboto;
+    font: 36px 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     margin-bottom: 40px; }
   .p_and_s a {
     color: #000;
-    font: 17px Roboto;
+    font: 17px 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -249,7 +245,7 @@ nav .nav-links .link {
       .culture .p_and_s.heritage .heritage_text p {
         max-width: 513px;
         color: #000;
-        font: 36px Roboto;
+        font: 36px 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -265,7 +261,7 @@ nav .nav-links .link {
   .power p {
     max-width: 530px;
     color: #000;
-    font: 36px Roboto;
+    font: 36px 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -281,7 +277,7 @@ nav .nav-links .link {
     .features .features_container h4 {
       color: #000;
       text-align: center;
-      font: 36px Roboto;
+      font: 36px 'Roboto', sans-serif;
       font-style: normal;
       font-weight: 400;
       line-height: normal;
@@ -329,7 +325,7 @@ nav .nav-links .link {
     .each .each_container h2 {
       color: #000;
       text-align: center;
-      font: 36px Roboto;
+      font: 36px 'Roboto', sans-serif;
       font-style: normal;
       font-weight: 700;
       line-height: normal;
@@ -345,7 +341,7 @@ nav .nav-links .link {
           width: 272px;
           color: #000;
           text-align: center;
-          font: 24px Roboto;
+          font: 24px 'Roboto', sans-serif;
           font-style: normal;
           font-weight: 700;
           line-height: normal;
@@ -355,7 +351,7 @@ nav .nav-links .link {
           display: block;
           color: #000;
           text-align: center;
-          font: 20px Roboto;
+          font: 20px 'Roboto', sans-serif;
           font-style: normal;
           font-weight: 400;
           line-height: normal;
@@ -364,7 +360,7 @@ nav .nav-links .link {
           display: block;
           color: #000;
           text-align: center;
-          font: 18px Roboto;
+          font: 18px 'Roboto', sans-serif;
           font-style: normal;
           font-weight: 700;
           line-height: normal; }
@@ -375,15 +371,11 @@ nav .nav-links .link {
   padding-bottom: 88px; }
   .keep .keep_container {
     max-width: 490px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
     margin: auto; }
     .keep .keep_container h2 {
       color: #000;
       text-align: center;
-      font: 36px Roboto;
+      font: 36px 'Roboto', sans-serif;
       font-style: normal;
       font-weight: 700;
       line-height: normal;
@@ -391,14 +383,15 @@ nav .nav-links .link {
     .keep .keep_container h3 {
       color: #000;
       text-align: center;
-      font: 17px Roboto;
+      font: 17px 'Roboto', sans-serif;
       font-style: normal;
       font-weight: 700;
       line-height: normal;
       margin-bottom: 26px; }
     .keep .keep_container .form_subscribe {
       max-width: 366px;
-      text-align: center; }
+      text-align: center;
+      margin: auto; }
       .keep .keep_container .form_subscribe .names {
         width: 100%;
         display: flex;
@@ -415,7 +408,7 @@ nav .nav-links .link {
         padding-left: 8px; }
       .keep .keep_container .form_subscribe #subscribe {
         width: 115px;
-        font: 14px 'Roboto';
+        font: 14px '$main_font';
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -437,7 +430,7 @@ footer {
     justify-content: space-between; }
     footer .footer_logo a {
       color: #FFF;
-      font: 14px Roboto;
+      font: 14px 'Roboto', sans-serif;
       font-style: normal;
       font-weight: 400;
       line-height: 21px; }
@@ -446,15 +439,21 @@ footer {
       justify-content: space-between; }
       footer .footer_logo .links ul li {
         color: #FFF;
-        font: 14px Roboto;
+        font: 14px 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 400;
         line-height: 21px;
-        /* 150% */
         list-style: none;
         margin-right: 72px;
         margin-bottom: 12px; }
-      footer .footer_logo .links a {
+        footer .footer_logo .links ul li:first-child {
+          color: #FFF;
+          font: 14px 'Roboto', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 23px;
+          margin-bottom: 36px; }
+      footer .footer_logo .links ul a {
         text-decoration: none; }
   footer .logo_social {
     padding-left: 25px;
@@ -469,16 +468,7 @@ footer {
   footer p {
     color: #FFF;
     text-align: center;
-    font: 14px Roboto;
+    font: 14px 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
-    line-height: 23.1px;
-    /* 165% */ }
-
-.links ul li:first-child {
-  color: #FFF;
-  font: 14px Roboto;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 23px;
-  margin-bottom: 36px; }
+    line-height: 23.1px; }

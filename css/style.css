@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+header {
+    background: #FFF;
+    /*padding-bottom: 15px;*/
+}
+
 .container {
     max-width: 1064px;
     margin: auto;
@@ -146,6 +151,7 @@ nav .nav-links .link {
     border-radius: 14px;
     background: #000;
     text-align: center;
+    display: inline-block;
 }
 
 .guide_sell {
@@ -531,7 +537,7 @@ nav .nav-links .link {
 }
 
 .form_subscribe {
-    width: 366px;
+    max-width: 366px;
     text-align: center;
 }
 
@@ -542,7 +548,7 @@ nav .nav-links .link {
 }
 
 .names input {
-    width: 153px;
+    max-width: 153px;
     height: 39px;
     margin-bottom: 18px;
     padding-left: 8px;
